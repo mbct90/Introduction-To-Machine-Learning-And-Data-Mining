@@ -3,7 +3,7 @@ close all
 clc
 %%
 % Load Matlab data file and extract variables of interest
-mat_data = load('/Users/marcobecattini/Documents/MATLAB/02450Toolbox_Matlab/project1/letter.mat')
+mat_data = load('../project1/letter.mat')
 %%
 X = mat_data.X;
 A = mat_data.A;
